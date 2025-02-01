@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['product_0',['Product',['../MathTools_8hpp.html#aed293d69da86b1a3dee789f10f69ebfb',1,'MathTools.hpp']]],
-  ['productfromcarray_1',['ProductFromCArray',['../MathTools_8hpp.html#a84ca6dd4be59ee7ed4d8c74884bb56a2',1,'MathTools.hpp']]]
+  ['checkinputfile_0',['CheckInputFile',['../namespaceCppTools.html#a2cc2a4fb0662e8b7ac692777e3852b11',1,'CppTools']]],
+  ['checkoutputfile_1',['CheckOutputFile',['../namespaceCppTools.html#aa415fc708ec5d9dfc8383ef7298c02a9',1,'CppTools']]],
+  ['clear_2',['Clear',['../classCppTools_1_1Box.html#ac992eb2bc30f0187eb027115964ed890',1,'CppTools::Box']]]
 ];

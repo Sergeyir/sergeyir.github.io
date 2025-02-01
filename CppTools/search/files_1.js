@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['outputcolor_2ehpp_0',['OutputColor.hpp',['../OutputColor_8hpp.html',1,'']]]
+  ['errorhandler_2ecpp_0',['ErrorHandler.cpp',['../ErrorHandler_8cpp.html',1,'']]],
+  ['errorhandler_2ehpp_1',['ErrorHandler.hpp',['../ErrorHandler_8hpp.html',1,'']]]
 ];

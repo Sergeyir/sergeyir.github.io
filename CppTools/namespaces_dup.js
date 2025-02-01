@@ -1,5 +1,5 @@
 var namespaces_dup =
 [
-    [ "ErrorHandlerSnippet", "namespaceErrorHandlerSnippet.html", null ],
+    [ "CppTools", "namespaceCppTools.html", "namespaceCppTools" ],
     [ "makefile_progress", "namespacemakefile__progress.html", null ]
 ];

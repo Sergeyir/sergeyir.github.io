@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['errorhandlersnippet_0',['ErrorHandlerSnippet',['../namespaceErrorHandlerSnippet.html',1,'']]]
+  ['cpptools_0',['CppTools',['../namespaceCppTools.html',1,'']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['maximum_0',['Maximum',['../MathTools_8hpp.html#acc315dd2cbc8666a888008cea7195bed',1,'MathTools.hpp']]],
-  ['maximumfromcarray_1',['MaximumFromCArray',['../MathTools_8hpp.html#afad841208462f0566cde547fba6f2f28',1,'MathTools.hpp']]],
-  ['minimum_2',['Minimum',['../MathTools_8hpp.html#a3943f4ca57908f67fb20457cd793457f',1,'MathTools.hpp']]],
-  ['minimumfromcarray_3',['MinimumFromCArray',['../MathTools_8hpp.html#acb963b13b67265c45bf5460b121c6353',1,'MathTools.hpp']]]
+  ['begin_0',['Begin',['../classCppTools_1_1Table.html#ac7c20d434bd7d7a72fba377165ff2cb7',1,'CppTools::Table']]],
+  ['box_1',['Box',['../classCppTools_1_1Box.html#ae927a8f904e5e9ad436a48fe0cfe41a6',1,'CppTools::Box::Box()'],['../classCppTools_1_1Box.html#ab64a16a4a27685a49a7399e63d0749bf',1,'CppTools::Box::Box(const std::string &amp;boxName, const int width=-1)']]],
+  ['btostr_2',['BtoStr',['../namespaceCppTools.html#a29d245821e1ff1dcf8a7f6713c3180a8',1,'CppTools']]]
 ];
