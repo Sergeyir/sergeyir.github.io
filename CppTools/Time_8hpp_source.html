@@ -113,29 +113,28 @@ $(function(){initNavTree('Time_8hpp_source.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <a href="Time_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef CPP_TOOLS_TIME_HPP</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define CPP_TOOLS_TIME_HPP</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;ctime&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">typedef</span> std::chrono::_V2::system_clock::time_point chrono_t;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceCppTools.html">CppTools</a></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>   chrono_t <a class="code hl_function" href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58">GetCurrentTime</a>();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>   <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceCppTools.html#aab2a732d8da0cb5942ab680d4c078329">PrintCurrentTime</a>();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>   <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceCppTools.html#a46b2bbe1d57a787961424f8a445be14a">PrintTimeDuration</a>(<span class="keyword">const</span> std::chrono::_V2::system_clock::time_point start, </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                          <span class="keyword">const</span> std::chrono::_V2::system_clock::time_point stop);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif </span><span class="comment">/*CPP_TOOLS_TIME_HPP*/</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef CPP_TOOLS_TIME_HPP</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define CPP_TOOLS_TIME_HPP</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;ctime&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">typedef</span> std::chrono::_V2::system_clock::time_point chrono_t;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceCppTools.html">CppTools</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>   chrono_t <a class="code hl_function" href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58">GetCurrentTime</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>   <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceCppTools.html#aab2a732d8da0cb5942ab680d4c078329">PrintCurrentTime</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>   <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceCppTools.html#a46b2bbe1d57a787961424f8a445be14a">PrintTimeDuration</a>(<span class="keyword">const</span> std::chrono::_V2::system_clock::time_point start, </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                          <span class="keyword">const</span> std::chrono::_V2::system_clock::time_point stop);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif </span><span class="comment">/*CPP_TOOLS_TIME_HPP*/</span><span class="preprocessor"></span></div>
 <div class="ttc" id="anamespaceCppTools_html"><div class="ttname"><a href="namespaceCppTools.html">CppTools</a></div><div class="ttdoc">CppTools namespace.</div></div>
-<div class="ttc" id="anamespaceCppTools_html_a46b2bbe1d57a787961424f8a445be14a"><div class="ttname"><a href="namespaceCppTools.html#a46b2bbe1d57a787961424f8a445be14a">CppTools::PrintTimeDuration</a></div><div class="ttdeci">void PrintTimeDuration(const std::chrono::_V2::system_clock::time_point start, const std::chrono::_V2::system_clock::time_point stop)</div><div class="ttdoc">Prints the time duration converted from 2 chrono_t variables. These chrono_t variables can be acquire...</div><div class="ttdef"><b>Definition</b> Time.cpp:26</div></div>
-<div class="ttc" id="anamespaceCppTools_html_a6b69fcd79268514e7bf2cd965b786a58"><div class="ttname"><a href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58">CppTools::GetCurrentTime</a></div><div class="ttdeci">chrono_t GetCurrentTime()</div><div class="ttdoc">Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)</div><div class="ttdef"><b>Definition</b> Time.cpp:15</div></div>
-<div class="ttc" id="anamespaceCppTools_html_aab2a732d8da0cb5942ab680d4c078329"><div class="ttname"><a href="namespaceCppTools.html#aab2a732d8da0cb5942ab680d4c078329">CppTools::PrintCurrentTime</a></div><div class="ttdeci">void PrintCurrentTime()</div><div class="ttdoc">Prints current time in format: Week Month Hour:Minute:Second Year.</div><div class="ttdef"><b>Definition</b> Time.cpp:20</div></div>
+<div class="ttc" id="anamespaceCppTools_html_a46b2bbe1d57a787961424f8a445be14a"><div class="ttname"><a href="namespaceCppTools.html#a46b2bbe1d57a787961424f8a445be14a">CppTools::PrintTimeDuration</a></div><div class="ttdeci">void PrintTimeDuration(const std::chrono::_V2::system_clock::time_point start, const std::chrono::_V2::system_clock::time_point stop)</div><div class="ttdoc">Prints the time duration converted from 2 chrono_t variables. These chrono_t variables can be acquire...</div><div class="ttdef"><b>Definition</b> Time.cpp:25</div></div>
+<div class="ttc" id="anamespaceCppTools_html_a6b69fcd79268514e7bf2cd965b786a58"><div class="ttname"><a href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58">CppTools::GetCurrentTime</a></div><div class="ttdeci">chrono_t GetCurrentTime()</div><div class="ttdoc">Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)</div><div class="ttdef"><b>Definition</b> Time.cpp:14</div></div>
+<div class="ttc" id="anamespaceCppTools_html_aab2a732d8da0cb5942ab680d4c078329"><div class="ttname"><a href="namespaceCppTools.html#aab2a732d8da0cb5942ab680d4c078329">CppTools::PrintCurrentTime</a></div><div class="ttdeci">void PrintCurrentTime()</div><div class="ttdoc">Prints current time in format: Week Month Hour:Minute:Second Year.</div><div class="ttdef"><b>Definition</b> Time.cpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
