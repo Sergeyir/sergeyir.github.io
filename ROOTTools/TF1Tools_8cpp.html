@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ROOTTools: src/ThrObj.cpp File Reference</title>
+<title>ROOTTools: src/TF1Tools.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,7 +83,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('ThrObj_8cpp.html',''); initResizable(true); });
+$(function(){initNavTree('TF1Tools_8cpp.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -111,41 +111,33 @@ $(function(){initNavTree('ThrObj_8cpp.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">ThrObj.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">TF1Tools.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Contains useful set of containers to simplify and/or speed up the process of writing multithreaded applications with ROOT TThreadedObject&lt;T&gt; objects.  
+<p>Contains useful set of functions that simplify work with ROOT's TF1 objects.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;array&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &quot;TFile.h&quot;</code><br />
-<code>#include &quot;TH1.h&quot;</code><br />
-<code>#include &quot;TH2.h&quot;</code><br />
-<code>#include &quot;TH3.h&quot;</code><br />
-<code>#include &quot;ROOT/TThreadedObject.hxx&quot;</code><br />
-<code>#include &quot;<a class="el" href="ThrObj_8hpp_source.html">ThrObj.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="TF1Tools_8hpp_source.html">TF1Tools.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac2eb364096e2f90453e534610d3cff64" id="r_ac2eb364096e2f90453e534610d3cff64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eb364096e2f90453e534610d3cff64">ROOT_TOOLS_THR_OBJ_CPP</a></td></tr>
-<tr class="separator:ac2eb364096e2f90453e534610d3cff64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb59e4f19d7d0ee39fabca95d9460f1" id="r_a8fb59e4f19d7d0ee39fabca95d9460f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb59e4f19d7d0ee39fabca95d9460f1">ROOT_TOOLS_TF1_TOOLS_CPP</a></td></tr>
+<tr class="separator:a8fb59e4f19d7d0ee39fabca95d9460f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains useful set of containers to simplify and/or speed up the process of writing multithreaded applications with ROOT TThreadedObject&lt;T&gt; objects. </p>
-<p>In order to use these containers libThrObj.so must be loaded</p>
-<p>This file is a part of a project CppTools (<a href="https://github.com/Sergeyir/ROOTTools">https://github.com/Sergeyir/ROOTTools</a>).</p>
+<div class="textblock"><p>Contains useful set of functions that simplify work with ROOT's TF1 objects. </p>
+<p>In order to use these functions libROOTObjTools.so must be loaded</p>
+<p>This file is a part of a project <a class="el" href="namespaceROOTTools.html" title="ROOTTools namespace.">ROOTTools</a> (<a href="https://github.com/Sergeyir/ROOTTools">https://github.com/Sergeyir/ROOTTools</a>).</p>
 <dl class="section author"><dt>Author</dt><dd>Sergei Antsupov (<a href="#" onclick="location.href='mai'+'lto:'+'ant'+'su'+'pov'+'01'+'24@'+'gm'+'ail'+'.c'+'om'; return false;">antsu<span class="obfuscator">.nosp@m.</span>pov0<span class="obfuscator">.nosp@m.</span>124@g<span class="obfuscator">.nosp@m.</span>mail<span class="obfuscator">.nosp@m.</span>.com</a>) </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac2eb364096e2f90453e534610d3cff64" name="ac2eb364096e2f90453e534610d3cff64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2eb364096e2f90453e534610d3cff64">&#9670;&#160;</a></span>ROOT_TOOLS_THR_OBJ_CPP</h2>
+<a id="a8fb59e4f19d7d0ee39fabca95d9460f1" name="a8fb59e4f19d7d0ee39fabca95d9460f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb59e4f19d7d0ee39fabca95d9460f1">&#9670;&#160;</a></span>ROOT_TOOLS_TF1_TOOLS_CPP</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ROOT_TOOLS_THR_OBJ_CPP</td>
+          <td class="memname">#define ROOT_TOOLS_TF1_TOOLS_CPP</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -157,7 +149,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="ThrObj_8cpp.html">ThrObj.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="TF1Tools_8cpp.html">TF1Tools.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

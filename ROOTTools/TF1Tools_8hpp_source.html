@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ROOTTools: src/ThrObj.cpp File Reference</title>
+<title>ROOTTools: include/TF1Tools.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,7 +83,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('ThrObj_8cpp.html',''); initResizable(true); });
+$(function(){initNavTree('TF1Tools_8hpp_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -109,55 +109,32 @@ $(function(){initNavTree('ThrObj_8cpp.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">ThrObj.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">TF1Tools.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Contains useful set of containers to simplify and/or speed up the process of writing multithreaded applications with ROOT TThreadedObject&lt;T&gt; objects.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;array&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &quot;TFile.h&quot;</code><br />
-<code>#include &quot;TH1.h&quot;</code><br />
-<code>#include &quot;TH2.h&quot;</code><br />
-<code>#include &quot;TH3.h&quot;</code><br />
-<code>#include &quot;ROOT/TThreadedObject.hxx&quot;</code><br />
-<code>#include &quot;<a class="el" href="ThrObj_8hpp_source.html">ThrObj.hpp</a>&quot;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac2eb364096e2f90453e534610d3cff64" id="r_ac2eb364096e2f90453e534610d3cff64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eb364096e2f90453e534610d3cff64">ROOT_TOOLS_THR_OBJ_CPP</a></td></tr>
-<tr class="separator:ac2eb364096e2f90453e534610d3cff64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains useful set of containers to simplify and/or speed up the process of writing multithreaded applications with ROOT TThreadedObject&lt;T&gt; objects. </p>
-<p>In order to use these containers libThrObj.so must be loaded</p>
-<p>This file is a part of a project CppTools (<a href="https://github.com/Sergeyir/ROOTTools">https://github.com/Sergeyir/ROOTTools</a>).</p>
-<dl class="section author"><dt>Author</dt><dd>Sergei Antsupov (<a href="#" onclick="location.href='mai'+'lto:'+'ant'+'su'+'pov'+'01'+'24@'+'gm'+'ail'+'.c'+'om'; return false;">antsu<span class="obfuscator">.nosp@m.</span>pov0<span class="obfuscator">.nosp@m.</span>124@g<span class="obfuscator">.nosp@m.</span>mail<span class="obfuscator">.nosp@m.</span>.com</a>) </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac2eb364096e2f90453e534610d3cff64" name="ac2eb364096e2f90453e534610d3cff64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2eb364096e2f90453e534610d3cff64">&#9670;&#160;</a></span>ROOT_TOOLS_THR_OBJ_CPP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ROOT_TOOLS_THR_OBJ_CPP</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<a href="TF1Tools_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef ROOT_TOOLS_TF1_TOOLS_HPP</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define ROOT_TOOLS_TF1_TOOLS_HPP</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;TF1.h&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceROOTTools.html">ROOTTools</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>   <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="namespaceROOTTools.html#ab13121d54d52beaac1fdd804b33e17de">GetNumberOfParameters</a>(<span class="keyword">const</span> std::string&amp; formula, </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                                      <span class="keyword">const</span> std::string&amp; parName = <span class="stringliteral">&quot;p&quot;</span>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif </span><span class="comment">/* ROOT_TOOLS_TF1_TOOLS_HPP */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="anamespaceROOTTools_html"><div class="ttname"><a href="namespaceROOTTools.html">ROOTTools</a></div><div class="ttdoc">ROOTTools namespace.</div></div>
+<div class="ttc" id="anamespaceROOTTools_html_ab13121d54d52beaac1fdd804b33e17de"><div class="ttname"><a href="namespaceROOTTools.html#ab13121d54d52beaac1fdd804b33e17de">ROOTTools::GetNumberOfParameters</a></div><div class="ttdeci">unsigned int GetNumberOfParameters(const std::string &amp;formula, const std::string &amp;parName=&quot;p&quot;)</div><div class="ttdoc">Return the biggest parameter index + 1 in formula of labmda function that was used in TF1 constructor...</div><div class="ttdef"><b>Definition</b> TF1Tools.cpp:16</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="ThrObj_8cpp.html">ThrObj.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="TF1Tools_8hpp.html">TF1Tools.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
