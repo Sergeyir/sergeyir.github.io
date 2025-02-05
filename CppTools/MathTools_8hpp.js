@@ -12,7 +12,7 @@ var MathTools_8hpp =
     [ "CppTools::ProductFromCArray", "namespaceCppTools.html#aa8f3e93079d5447b0e1cb6b8965aa9f9", null ],
     [ "CppTools::RMS", "namespaceCppTools.html#a1abab204b8f872a945edf372f6a1a353", null ],
     [ "CppTools::RMSFromCArray", "namespaceCppTools.html#a347feab09fbf79841813682c04f2b422", null ],
-    [ "CppTools::StandardError", "namespaceCppTools.html#ab1bc7ee66201cd55cddb126501ee553c", null ],
+    [ "CppTools::StandardError", "namespaceCppTools.html#a0d488e21a5e87c0ff1b2b844b801b15a", null ],
     [ "CppTools::StandardErrorFromCArray", "namespaceCppTools.html#afce9237852a898be92f52240abafd40b", null ],
     [ "CppTools::UncertaintyProp", "namespaceCppTools.html#aee660af340031beacf6e6c134d8ceabc", null ],
     [ "CppTools::UncertaintyPropFromCArray", "namespaceCppTools.html#a8ebf745b4c7cda67bea7cf940fe13b2e", null ]

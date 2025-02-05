@@ -33,7 +33,7 @@ var namespaceCppTools =
     [ "RemoveObsoletePrecision", "namespaceCppTools.html#a312e32f8e6de45243d0c04bbeb205b93", null ],
     [ "RMS", "namespaceCppTools.html#a1abab204b8f872a945edf372f6a1a353", null ],
     [ "RMSFromCArray", "namespaceCppTools.html#a347feab09fbf79841813682c04f2b422", null ],
-    [ "StandardError", "namespaceCppTools.html#ab1bc7ee66201cd55cddb126501ee553c", null ],
+    [ "StandardError", "namespaceCppTools.html#a0d488e21a5e87c0ff1b2b844b801b15a", null ],
     [ "StandardErrorFromCArray", "namespaceCppTools.html#afce9237852a898be92f52240abafd40b", null ],
     [ "UncertaintyProp", "namespaceCppTools.html#aee660af340031beacf6e6c134d8ceabc", null ],
     [ "UncertaintyPropFromCArray", "namespaceCppTools.html#a8ebf745b4c7cda67bea7cf940fe13b2e", null ],

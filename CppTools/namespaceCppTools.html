@@ -197,10 +197,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GetTerminalWidth</b> (
 <tr class="memitem:afce9237852a898be92f52240abafd40b"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afce9237852a898be92f52240abafd40b">StandardErrorFromCArray</a> (const T *entries, const unsigned long n, const double average)</td></tr>
 <tr class="memdesc:afce9237852a898be92f52240abafd40b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns standard error value from C array.  <br /></td></tr>
 <tr class="separator:afce9237852a898be92f52240abafd40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1bc7ee66201cd55cddb126501ee553c" id="r_ab1bc7ee66201cd55cddb126501ee553c"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
-<tr class="memitem:ab1bc7ee66201cd55cddb126501ee553c"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab1bc7ee66201cd55cddb126501ee553c">StandardError</a> (Ts... args, const double average)</td></tr>
-<tr class="memdesc:ab1bc7ee66201cd55cddb126501ee553c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns average value from parameter pack.  <br /></td></tr>
-<tr class="separator:ab1bc7ee66201cd55cddb126501ee553c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d488e21a5e87c0ff1b2b844b801b15a" id="r_a0d488e21a5e87c0ff1b2b844b801b15a"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a0d488e21a5e87c0ff1b2b844b801b15a"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0d488e21a5e87c0ff1b2b844b801b15a">StandardError</a> (Ts... args)</td></tr>
+<tr class="memdesc:a0d488e21a5e87c0ff1b2b844b801b15a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns average value from parameter pack.  <br /></td></tr>
+<tr class="separator:a0d488e21a5e87c0ff1b2b844b801b15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebf745b4c7cda67bea7cf940fe13b2e" id="r_a8ebf745b4c7cda67bea7cf940fe13b2e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a8ebf745b4c7cda67bea7cf940fe13b2e"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8ebf745b4c7cda67bea7cf940fe13b2e">UncertaintyPropFromCArray</a> (const T *entries, const unsigned long n)</td></tr>
 <tr class="memdesc:a8ebf745b4c7cda67bea7cf940fe13b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns uncertainty that is the propagated uncertainty from all uncertainties from C array.  <br /></td></tr>
@@ -1298,8 +1298,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ab1bc7ee66201cd55cddb126501ee553c" name="ab1bc7ee66201cd55cddb126501ee553c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1bc7ee66201cd55cddb126501ee553c">&#9670;&#160;</a></span>StandardError()</h2>
+<a id="a0d488e21a5e87c0ff1b2b844b801b15a" name="a0d488e21a5e87c0ff1b2b844b801b15a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d488e21a5e87c0ff1b2b844b801b15a">&#9670;&#160;</a></span>StandardError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1309,12 +1309,8 @@ template&lt;typename... Ts&gt; </div>
         <tr>
           <td class="memname">double CppTools::StandardError </td>
           <td>(</td>
-          <td class="paramtype">Ts...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Ts...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>average</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1322,8 +1318,7 @@ template&lt;typename... Ts&gt; </div>
 <p>Returns average value from parameter pack. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Parameter pack </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">average</td><td>Average value from the parameter pack </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Parameter pack, last value in the pack must be the average value of the pack </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>Standard error value </td></tr>
   </table>
   </dd>
