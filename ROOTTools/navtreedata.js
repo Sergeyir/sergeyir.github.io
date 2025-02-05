@@ -60,7 +60,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"FitTools_8cpp.html"
+"GUIFit_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
