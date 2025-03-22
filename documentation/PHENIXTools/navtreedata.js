@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "ROOTTools", "index.html", [
+  [ "PHENIXTools", "index.html", [
     [ "Overview", "md_README.html", [
       [ "Requirements", "md_README.html#autotoc_md1", null ],
       [ "Installing", "md_README.html#autotoc_md2", null ],
