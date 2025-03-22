@@ -1,6 +1,5 @@
 var namespaces_dup =
 [
-    [ "makefile_progress", "namespacemakefile__progress.html", null ],
     [ "PBarColor", "namespacePBarColor.html", [
       [ "BLACK", "namespacePBarColor.html#a17be83eaa3579751941bd99feaea67e0", null ],
       [ "BLUE", "namespacePBarColor.html#a7ef14cdd6c958d48956519e68cadc6d9", null ],

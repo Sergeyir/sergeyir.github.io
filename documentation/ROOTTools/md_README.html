@@ -113,7 +113,7 @@ $(function(){initNavTree('md_README.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="autotoc_md0"></a></p>
-<p>Set of useful functions and classes that can be used in any C++ application to simplify the work with <a href="https://root.cern/">ROOT6</a>'s various classes, such as TF1, TCanvas, TFile, TThreadedObject, etc., or to extend their usage. This repository is still in progress, and some of its features are yet to be finished/added. But everything described in the <a href="https://sergeyir.github.io/documentation/ROOTTools/">documentation</a> is finished and works flawlessly.</p>
+<p>Set of useful functions and classes that can be used in any C++ application to simplify the work with <a href="https://root.cern/">ROOT6</a>'s various classes, such as TF1, TCanvas, TFile, TThreadedObject, etc., or to extend their usage. This repository is still in progress, and some of its features are yet to be finished/added. But everything described in the <a href="https://sergeyir.github.io/documentation/ROOTTools/">documentation</a> is finished and it works fine.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Requirements</h1>
 <ul>
@@ -123,23 +123,27 @@ Requirements</h1>
 </ul>
 <p>To check the version of C++ that was used for the compilation of the ROOT run (you may need to head into the bin directory in the ROOT install directory if ROOT was not installed with the package manager)</p>
 <div class="fragment"><div class="line">root-config --cflags</div>
-</div><!-- fragment --><p>If <a href="https://root.cern/">ROOT6</a> was not installed with a package manager on your system, you also need to set $ROOT_INCLUDE and $ROOT_CONFIG in your profile (.bashrc, .zshrc, or other) or configure the paths in Makefile.am.</p>
+</div><!-- fragment --><p>If <a href="https://root.cern/">ROOT6</a> was not installed with a package manager on your system, you also need to set path to the directory in which root was installed ($ROOT_PATH) in your profile (.bashrc, .zshrc, or other) or configure the paths in CMakeLists.txt or etc/Makefile.am.</p>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Installing</h1>
 <p>Run in your working directory to copy the repository</p>
 <div class="fragment"><div class="line">git clone https://github.com/Sergeyir/ROOTTools --depth=1</div>
-</div><!-- fragment --><p>Run in the downloaded directory to compile the libraries (you can use option -jN to compile on multiple threads)</p>
+</div><!-- fragment --><p>First run in the downloaded directory to generate Makefile</p>
+<div class="fragment"><div class="line">cmake .</div>
+</div><!-- fragment --><p>Then run to compile the libraries (you can use option -jN to compile on multiple threads)</p>
 <div class="fragment"><div class="line">make</div>
+</div><!-- fragment --><p>Or you can use Makefile from etc directory</p>
+<div class="fragment"><div class="line">cp etc/Makefile* . &amp;&amp; make</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Documentation</h1>
-<p>You can view the detailed documentation at <a href="https://sergeyir.github.io/documentation/ROOTTools/">https://sergeyir.github.io/documentation/ROOTTools/</a>. (see Namespaces / Namespaces List / <a class="el" href="namespaceROOTTools.html" title="ROOTTools namespace.">ROOTTools</a>). Since this repository is not designed to be used on its own and is intended to be used as a set of libraries, every class, method, and variable is all in the <a class="el" href="namespaceROOTTools.html" title="ROOTTools namespace.">ROOTTools</a> namespace scope.</p>
+<p>You can view the detailed documentation at <a href="https://sergeyir.github.io/documentation/ROOTTools/">https://sergeyir.github.io/documentation/ROOTTools/</a>. (see Namespaces / Namespaces List / <a class="el" href="namespaceROOTTools.html">ROOTTools</a>). Since this repository is not designed to be used on its own and is intended to be used as a set of libraries, every class, method, and variable is all in the <a class="el" href="namespaceROOTTools.html">ROOTTools</a> namespace scope.</p>
 <p>If the link is inaccessible, you can generate the documentation yourself with Doxygen. To do this run while in the root of the repository</p>
 <div class="fragment"><div class="line">doxygen</div>
 </div><!-- fragment --><p>To view the generated html file open html/index.html with any browser or simply run to automaticaly open it on linux</p>
 <div class="fragment"><div class="line">xdg-open html/index.html</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 Usage</h1>
-<p>In order to use functions and classes from this project while compiling link libraries libTCanvasTools.so, libFitTools.so, libGUIFit.so, libThrObj.so, libTFileTools.so (see $ROOT_TOOLS_LIB in Makefile and <a class="el" href="Makefile_8inc.html">Makefile.inc</a> for more detail), and don't forget to include the needed header files (see the list of files in documentation <a href="https://sergeyir.github.io/documentation/ROOTTools/files.html">https://sergeyir.github.io/documentation/ROOTTools/files.html</a>). </p>
+<p>In order to use functions and classes from this project while compiling link libraries libTCanvasTools.so, libFitTools.so, libGUIFit.so, libThrObj.so, libTFileTools.so (see $ROOT_TOOLS_LIB in Makefile and <a class="el" href="Makefile_8inc.html">Makefile.inc</a> for more detail or see CMakeLists.txt), and don't forget to include the needed header files (see the list of files in documentation <a href="https://sergeyir.github.io/documentation/ROOTTools/files.html">https://sergeyir.github.io/documentation/ROOTTools/files.html</a>). </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

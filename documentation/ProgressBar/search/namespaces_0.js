@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['makefile_5fprogress_0',['makefile_progress',['../namespacemakefile__progress.html',1,'']]]
+  ['pbarcolor_0',['PBarColor',['../namespacePBarColor.html',1,'']]],
+  ['pbarstyle_1',['PBarStyle',['../namespacePBarStyle.html',1,'']]]
 ];

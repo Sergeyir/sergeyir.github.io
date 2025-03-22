@@ -123,18 +123,22 @@ Requirements</h1>
 Installing</h1>
 <p>Run in your working directory to copy the repository</p>
 <div class="fragment"><div class="line">git clone https://github.com/Sergeyir/CppTools --depth=1</div>
-</div><!-- fragment --><p>Run in the downloaded directory to compile the libraries (you can use option -jN to compile on multiple threads)</p>
+</div><!-- fragment --><p>Run in the downloaded directory to generate Makefile</p>
+<div class="fragment"><div class="line">cmake .</div>
+</div><!-- fragment --><p>Then run to compile the libraries (you can use option -jN to compile on multiple threads)</p>
 <div class="fragment"><div class="line">make</div>
+</div><!-- fragment --><p>Or you can use Makefile from etc directory</p>
+<div class="fragment"><div class="line">cp etc/Makefile* . &amp;&amp; make</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Documentation</h1>
-<p>Run in the downloaded directory to compile the libraries (you can use option -jN to compile on multiple threads). You can view the detailed documentation at <a href="https://sergeyir.github.io/documentation/CppTools/">https://sergeyir.github.io/documentation/CppTools/</a> (see Namespaces/Namespaces List/CppTools). Since this repository is not designed to be used on its own and is intended to be used as a set of libraries, every class, method, and variable is all in the <a class="el" href="namespaceCppTools.html" title="CppTools namespace.">CppTools</a> namespace scope.</p>
+<p>Run in the downloaded directory to compile the libraries (you can use option -jN to compile on multiple threads). You can view the detailed documentation at <a href="https://sergeyir.github.io/documentation/CppTools/">https://sergeyir.github.io/documentation/CppTools/</a> (see Namespaces/Namespaces List/CppTools). Since this repository is not designed to be used on its own and is intended to be used as a set of libraries, every class, method, and variable is all in the CppTools namespace scope.</p>
 <p>If the link is inaccessible, you can generate the documentation yourself with Doxygen. To do this run while in the root of the repository</p>
 <div class="fragment"><div class="line">doxygen</div>
 </div><!-- fragment --><p>To view the generated HTML file, open html/index.html with any browser or simply run to open it on Linux</p>
 <div class="fragment"><div class="line">xdg-open html/index.html</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 Usage</h1>
-<p>In order to use functions and classes from this project while compiling link libraries libBox.so, libTime.so, libTable.so, libIOTools.so, libStrTools.so, libErrorHandler.so (see $CPP_TOOLS_LIB in Makefile and Makefile.inc for more detail), and don't forget to include the needed header files (see the list of files in the documentation <a href="https://sergeyir.github.io/documentation/CppTools/files.html">https://sergeyir.github.io/documentation/CppTools/files.html</a>). </p>
+<p>In order to use functions and classes from this project while compiling link libraries libBox.so, libTime.so, libTable.so, libIOTools.so, libStrTools.so, libErrorHandler.so (see $CPP_TOOLS_LIB in Makefile and Makefile.inc for more detail or see CMakeLists.txt), and don't forget to include the needed header files (see the list of files in the documentation <a href="https://sergeyir.github.io/documentation/CppTools/files.html">https://sergeyir.github.io/documentation/CppTools/files.html</a>). </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

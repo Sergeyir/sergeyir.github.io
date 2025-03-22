@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['get_0',['Get',['../classROOTTools_1_1ThrObj.html#a2c6a1a59946b3132ef2905429f9b12fe',1,'ROOTTools::ThrObj']]],
-  ['getnumberofparameters_1',['GetNumberOfParameters',['../namespaceROOTTools.html#ab13121d54d52beaac1fdd804b33e17de',1,'ROOTTools']]],
-  ['guifit_2',['GUIFit',['../classROOTTools_1_1GUIFit.html#af1b4f60701c972871d37f304c35eaeca',1,'ROOTTools::GUIFit']]]
+  ['checkfilefornan_0',['CheckFileForNan',['../classROOTTools_1_1CheckFileForNan.html#a859d5a1f8716adc1802274d49120c9fd',1,'ROOTTools::CheckFileForNan']]],
+  ['clear_1',['Clear',['../namespaceROOTTools_1_1ThrObjHolder.html#a3f4dc9d784619bcdbf2d9145428ce5d7',1,'ROOTTools::ThrObjHolder']]],
+  ['containsnan_2',['ContainsNan',['../classROOTTools_1_1CheckFileForNan.html#acd187773fddb98178c39ca96dccd7d94',1,'ROOTTools::CheckFileForNan']]]
 ];

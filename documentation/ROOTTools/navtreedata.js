@@ -52,6 +52,8 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -60,7 +62,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"GUIFit_8cpp.html"
+"CMakeFiles_23_831_86_2CompilerIdCXX_2CMakeCXXCompilerId_8cpp.html",
+"namespaceROOTTools_1_1ThrObjHolder.html#a3034e35302622418439c4ef30ff88cb7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

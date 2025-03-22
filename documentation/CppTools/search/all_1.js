@@ -8,5 +8,5 @@ var searchData=
   ['box_2ehpp_5',['Box.hpp',['../Box_8hpp.html',1,'']]],
   ['boxwidth_6',['boxWidth',['../classCppTools_1_1Box.html#acc0aaf952d2f0d3c25bbf7a16956f3f7',1,'CppTools::Box']]],
   ['brbordercornertable_7',['BRBorderCornerTable',['../classCppTools_1_1Table.html#a0ba9f8208da873dbf686076075ef09cc',1,'CppTools::Table']]],
-  ['btostr_8',['BtoStr',['../namespaceCppTools.html#a29d245821e1ff1dcf8a7f6713c3180a8',1,'CppTools']]]
+  ['btostr_8',['BtoStr',['../StrTools_8hpp.html#a29d245821e1ff1dcf8a7f6713c3180a8',1,'CppTools']]]
 ];

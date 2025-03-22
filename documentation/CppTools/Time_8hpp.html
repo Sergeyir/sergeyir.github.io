@@ -110,7 +110,6 @@ $(function(){initNavTree('Time_8hpp.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Time.hpp File Reference</div></div>
@@ -125,12 +124,6 @@ $(function(){initNavTree('Time_8hpp.html',''); initResizable(true); });
 </div>
 <p><a href="Time_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCppTools.html">CppTools</a></td></tr>
-<tr class="memdesc:namespaceCppTools"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceCppTools.html" title="CppTools namespace.">CppTools</a> namespace. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a1c747308b966052f86099a5a6936905e" id="r_a1c747308b966052f86099a5a6936905e"><td class="memItemLeft" align="right" valign="top"><a id="a1c747308b966052f86099a5a6936905e" name="a1c747308b966052f86099a5a6936905e"></a>
@@ -139,23 +132,79 @@ typedef std::chrono::_V2::system_clock::time_point&#160;</td><td class="memItemR
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6b69fcd79268514e7bf2cd965b786a58" id="r_a6b69fcd79268514e7bf2cd965b786a58"><td class="memItemLeft" align="right" valign="top">chrono_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58">CppTools::GetCurrentTime</a> ()</td></tr>
+<tr class="memitem:a6b69fcd79268514e7bf2cd965b786a58" id="r_a6b69fcd79268514e7bf2cd965b786a58"><td class="memItemLeft" align="right" valign="top">chrono_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b69fcd79268514e7bf2cd965b786a58">CppTools::GetCurrentTime</a> ()</td></tr>
 <tr class="memdesc:a6b69fcd79268514e7bf2cd965b786a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)  <br /></td></tr>
 <tr class="separator:a6b69fcd79268514e7bf2cd965b786a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2a732d8da0cb5942ab680d4c078329" id="r_aab2a732d8da0cb5942ab680d4c078329"><td class="memItemLeft" align="right" valign="top"><a id="aab2a732d8da0cb5942ab680d4c078329" name="aab2a732d8da0cb5942ab680d4c078329"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CppTools::PrintCurrentTime</b> ()</td></tr>
 <tr class="memdesc:aab2a732d8da0cb5942ab680d4c078329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints current time in format: Week Month Hour:Minute:Second Year. <br /></td></tr>
 <tr class="separator:aab2a732d8da0cb5942ab680d4c078329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46b2bbe1d57a787961424f8a445be14a" id="r_a46b2bbe1d57a787961424f8a445be14a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCppTools.html#a46b2bbe1d57a787961424f8a445be14a">CppTools::PrintTimeDuration</a> (const std::chrono::_V2::system_clock::time_point start, const std::chrono::_V2::system_clock::time_point stop)</td></tr>
-<tr class="memdesc:a46b2bbe1d57a787961424f8a445be14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the time duration converted from 2 chrono_t variables. These chrono_t variables can be acquired with the use of chrono_t <a class="el" href="namespaceCppTools.html#a6b69fcd79268514e7bf2cd965b786a58" title="Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)">CppTools::GetCurrentTime</a> function. If the both variables were acquired as a current time measurement in 2 different points in time then the returned duration is the time duration between these 2 different points in time.  <br /></td></tr>
+<tr class="memitem:a46b2bbe1d57a787961424f8a445be14a" id="r_a46b2bbe1d57a787961424f8a445be14a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b2bbe1d57a787961424f8a445be14a">CppTools::PrintTimeDuration</a> (const std::chrono::_V2::system_clock::time_point start, const std::chrono::_V2::system_clock::time_point stop)</td></tr>
+<tr class="memdesc:a46b2bbe1d57a787961424f8a445be14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the time duration converted from 2 chrono_t variables. These chrono_t variables can be acquired with the use of chrono_t <a class="el" href="#a6b69fcd79268514e7bf2cd965b786a58" title="Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)">CppTools::GetCurrentTime</a> function. If the both variables were acquired as a current time measurement in 2 different points in time then the returned duration is the time duration between these 2 different points in time.  <br /></td></tr>
 <tr class="separator:a46b2bbe1d57a787961424f8a445be14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains useful set of functions to print current time, time duration. </p>
 <p>In order to use these functions libTime.so must be loaded</p>
-<p>This file is a part of a project <a class="el" href="namespaceCppTools.html" title="CppTools namespace.">CppTools</a> (<a href="https://github.com/Sergeyir/CppTools">https://github.com/Sergeyir/CppTools</a>).</p>
+<p>This file is a part of a project CppTools (<a href="https://github.com/Sergeyir/CppTools">https://github.com/Sergeyir/CppTools</a>).</p>
 <dl class="section author"><dt>Author</dt><dd>Sergei Antsupov (<a href="#" onclick="location.href='mai'+'lto:'+'ant'+'su'+'pov'+'01'+'24@'+'gm'+'ail'+'.c'+'om'; return false;">antsu<span class="obfuscator">.nosp@m.</span>pov0<span class="obfuscator">.nosp@m.</span>124@g<span class="obfuscator">.nosp@m.</span>mail<span class="obfuscator">.nosp@m.</span>.com</a>) </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a6b69fcd79268514e7bf2cd965b786a58" name="a6b69fcd79268514e7bf2cd965b786a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b69fcd79268514e7bf2cd965b786a58">&#9670;&#160;</a></span>GetCurrentTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">chrono_t CppTools::GetCurrentTime </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">currentTime</td><td>chrono_t variable </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a46b2bbe1d57a787961424f8a445be14a" name="a46b2bbe1d57a787961424f8a445be14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b2bbe1d57a787961424f8a445be14a">&#9670;&#160;</a></span>PrintTimeDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CppTools::PrintTimeDuration </td>
+          <td>(</td>
+          <td class="paramtype">const std::chrono::_V2::system_clock::time_point</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::chrono::_V2::system_clock::time_point</td>          <td class="paramname"><span class="paramname"><em>stop</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints the time duration converted from 2 chrono_t variables. These chrono_t variables can be acquired with the use of chrono_t <a class="el" href="#a6b69fcd79268514e7bf2cd965b786a58" title="Returns current time as std::chrono::_V2::system_clock::time_point (or chrono_t)">CppTools::GetCurrentTime</a> function. If the both variables were acquired as a current time measurement in 2 different points in time then the returned duration is the time duration between these 2 different points in time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>first chrono_t variable </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stop</td><td>second chrono_t variable </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

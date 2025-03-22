@@ -118,16 +118,20 @@ $(function(){initNavTree('md_README.html',''); initResizable(true); });
 <h1><a class="anchor" id="autotoc_md1"></a>
 Requirements</h1>
 <ul>
-<li>GNU GCC++11 or newer</li>
+<li>GNU GCC++17 or newer</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Installing</h1>
 <p>Run in your working directory to download</p>
 <div class="fragment"><div class="line">git clone https://github.com/Sergeyir/ProgressBar</div>
-</div><!-- fragment --><p>Run in the downloaded directory to compile the code for <a class="el" href="classProgressBar.html" title="Class ProgressBar can be used used to print the progress in an ascii horizontal bar....">ProgressBar</a></p>
+</div><!-- fragment --><p>Run in the downloaded directory to generate the Makefile</p>
+<div class="fragment"><div class="line">cmake .</div>
+</div><!-- fragment --><p>Then run to compile libraries and executables</p>
 <div class="fragment"><div class="line">make</div>
-</div><!-- fragment --><p>You can check the compilation result by heading to the examples directory by making examples and then running the simplest test executable</p>
-<div class="fragment"><div class="line">make &amp;&amp; ./test</div>
+</div><!-- fragment --><p>You can check the compilation result by running the simplest test executable</p>
+<div class="fragment"><div class="line">./bin/test</div>
+</div><!-- fragment --><p>There is another option for compilation with Makefile (located in etc directory). To compile the project this way run</p>
+<div class="fragment"><div class="line">cp etc/Makefile* . &amp;&amp; make</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Documentation</h1>
 <p>You can view the detailed documentation at <a href="https://sergeyir.github.io/documentation/ProgressBar/">https://sergeyir.github.io/documentation/ProgressBar/</a> (see Classes/Class List/ProgressBar).</p>
@@ -137,7 +141,7 @@ Documentation</h1>
 <div class="fragment"><div class="line">xdg-open html/index.html</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 Usage</h1>
-<p>You can link the compiled library libPBar.so (see Makefile and Makefile.am for reference in the examples directory). Also see <a href="https://sergeyir.github.io/ProgressBar/examples.html">examples</a> in the examples directory:</p><ul>
+<p>You can link the compiled library libPBar.so (see Makefile and Makefile.am for reference in the examples directory or see CMakeLists.txt). Also see <a href="https://sergeyir.github.io/ProgressBar/examples.html">examples</a> in the examples directory:</p><ul>
 <li><a class="el" href="style_8cpp.html" title="When executed this example allows to test different styles of ProgressBar.">style.cpp</a> - execute, run and try different <a class="el" href="classProgressBar.html" title="Class ProgressBar can be used used to print the progress in an ascii horizontal bar....">ProgressBar</a> with different styles.</li>
 <li><a class="el" href="possibilities_8cpp.html" title="Example that shows different ways to use ProgressBar.">possibilities.cpp</a> - shows different ways to use <a class="el" href="classProgressBar.html" title="Class ProgressBar can be used used to print the progress in an ascii horizontal bar....">ProgressBar</a>.</li>
 <li><a class="el" href="handle__output_8cpp.html" title="Example on usage of ProgressBar showing how to handle output in terminal while ProgressBar is in prog...">handle_output.cpp</a> - shows how to handle output while <a class="el" href="classProgressBar.html" title="Class ProgressBar can be used used to print the progress in an ascii horizontal bar....">ProgressBar</a> is in progress.</li>
