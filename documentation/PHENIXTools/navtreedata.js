@@ -47,8 +47,7 @@ var NAVTREE =
         [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
+    ] ]
   ] ]
 ];
 

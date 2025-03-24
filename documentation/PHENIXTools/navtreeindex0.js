@@ -50,7 +50,6 @@ var NAVTREEINDEX0 =
 "LogoPainter_8hpp_source.html":[2,0,2,0],
 "cling__prelim_8cpp.html":[2,0,1,0],
 "cling__prelim_8cpp.html#a4a3fd9a7d22cba18287e36a71e94acb6":[2,0,1,0,0],
-"cling_prelim_8cpp-example.html":[3,1],
 "dir_017ad5e908c41501f6a06b5119b37293.html":[2,0,0],
 "dir_4e46a95dba17e04b9eff096bf247e3fe.html":[2,0,0,0,0],
 "dir_5793f427ab339408edb0bbc198a7e34a.html":[2,0,0,0],
@@ -62,7 +61,6 @@ var NAVTREEINDEX0 =
 "dir_d2eae7094a1646361cbed06bf92637bd.html":[2,0,0,1],
 "dir_d44c64559bbebec7f509842c48db8b23.html":[2,0,2],
 "dir_e6d9e1ebfcdf99eaabbd72ff52a58fcc.html":[2,0,0,0,1],
-"examples.html":[3],
 "files.html":[2,0],
 "globals.html":[2,1,0],
 "globals_defs.html":[2,1,3],
@@ -88,12 +86,10 @@ var NAVTREEINDEX0 =
 "namespacerootlogon.html":[1,0,2],
 "namespaces.html":[1,0],
 "pages.html":[],
-"prelim_8cpp-example.html":[3,0],
 "prelim_8cpp.html":[2,0,1,1],
 "prelim_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[2,0,1,1,0],
 "prelim_8cpp_8o_8d.html":[2,0,0,2,0,0],
 "prelim_8dir_2link_8d.html":[2,0,0,2,1],
-"prelim_8py-example.html":[3,2],
 "prelim_8py.html":[2,0,1,2],
 "rootlogon_8py.html":[2,0,4]
 };

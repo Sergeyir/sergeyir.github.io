@@ -122,6 +122,7 @@ $(function(){initNavTree('namespacePHENIXTools.html',''); initResizable(true); }
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a18c6635bca0cd5c1f7332c2e1aeae517" id="r_a18c6635bca0cd5c1f7332c2e1aeae517"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c6635bca0cd5c1f7332c2e1aeae517">DrawPreliminary</a> (const double x, const double y, const double size=0.25)</td></tr>
+<tr class="memdesc:a18c6635bca0cd5c1f7332c2e1aeae517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw preliminary logo on a TPad.  <br /></td></tr>
 <tr class="separator:a18c6635bca0cd5c1f7332c2e1aeae517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a793dbbc6e9664884edf84a84ff1c3dd7" id="r_a793dbbc6e9664884edf84a84ff1c3dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a793dbbc6e9664884edf84a84ff1c3dd7">DrawBezierShape</a> (const std::string inputFileName, const double shiftX, const double shiftY, const double scaleX, const double scaleY, const Color_t color)</td></tr>
 <tr class="separator:a793dbbc6e9664884edf84a84ff1c3dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +141,6 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains all functions and variables that are needed for this project. </p>
-<p>namespace <a class="el" href="namespacePHENIXTools.html" title="Contains all functions and variables that are needed for this project.">PHENIXTools</a> </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a793dbbc6e9664884edf84a84ff1c3dd7" name="a793dbbc6e9664884edf84a84ff1c3dd7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a793dbbc6e9664884edf84a84ff1c3dd7">&#9670;&#160;</a></span>DrawBezierShape()</h2>
@@ -207,6 +207,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Draw preliminary logo on a TPad. </p>
+<p>This is the only function that is needed for the user for the logo to be drawn.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>NDC coordinate along x axis that shows where to put the logo </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>NDC coordinate along y axis that shows where to put the logo </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>NDC size of a logo</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The logo will be drawn (in NDC) from x to x + size along X axis and from y to y + 0.4772*size along y axis.</p>
+<p>Warning: do not set your TPad size less than 400 pixels in width or height. This might mess up the calculation of sizes of the logo along x and y axis since pixels must be used for consistency. </p>
 
 </div>
 </div>
