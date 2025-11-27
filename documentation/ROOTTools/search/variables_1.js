@@ -12,5 +12,5 @@ var searchData=
   ['containerth3f_9',['containerTH3F',['../namespaceROOTTools_1_1ThrObjHolder.html#a85199732842b63cba50bf9d29245311a',1,'ROOTTools::ThrObjHolder']]],
   ['containerth3l_10',['containerTH3L',['../namespaceROOTTools_1_1ThrObjHolder.html#ac9a6d0fad00ce79b5613bada1671b222',1,'ROOTTools::ThrObjHolder']]],
   ['currentcutmode_11',['currentCutMode',['../namespaceGUIDistrCutter2D.html#a737c1815500a3d62404c9c7b18bc7d48',1,'GUIDistrCutter2D']]],
-  ['currenthist_12',['currentHist',['../namespaceGUIDistrCutter2D.html#a5dc8f5b4716c0405856011107b4a7df2',1,'GUIDistrCutter2D']]]
+  ['currenthist_12',['currentHist',['../namespaceGUIDistrCutter2D.html#af3953005c88d6fec449a2dc3356df75f',1,'GUIDistrCutter2D']]]
 ];

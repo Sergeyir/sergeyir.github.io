@@ -1,6 +1,6 @@
 var ThrObj_8hpp =
 [
-    [ "ROOTTools::ThrObj< T >", "classROOTTools_1_1ThrObj.html", "classROOTTools_1_1ThrObj" ],
+    [ "ROOTTools::ThrObj&lt; T &gt;", "classROOTTools_1_1ThrObj.html", "classROOTTools_1_1ThrObj" ],
     [ "ROOTTools::ThrObjHolder::AddHistogram", "namespaceROOTTools_1_1ThrObjHolder.html#ada93be86bd113027538df43189edf4ce", null ],
     [ "ROOTTools::ThrObjHolder::AddHistogram", "namespaceROOTTools_1_1ThrObjHolder.html#ab840313ff5ef8e7d9e6f896c0f3f4455", null ],
     [ "ROOTTools::ThrObjHolder::AddHistogram", "namespaceROOTTools_1_1ThrObjHolder.html#a3933c306b27c9da6d6658fd7a54904f1", null ],

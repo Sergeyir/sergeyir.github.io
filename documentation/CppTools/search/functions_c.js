@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['uncertaintyprop_0',['UncertaintyProp',['../MathTools_8hpp.html#aee660af340031beacf6e6c134d8ceabc',1,'CppTools']]],
-  ['uncertaintypropfromcarray_1',['UncertaintyPropFromCArray',['../MathTools_8hpp.html#a8ebf745b4c7cda67bea7cf940fe13b2e',1,'CppTools']]],
-  ['utf8_5fstrlen_2',['utf8_strlen',['../StrTools_8hpp.html#a96c02838b7969f41c62ad040f9f3d4b6',1,'CppTools']]]
+  ['table_0',['Table',['../classCppTools_1_1Table.html#a166174846cc4e07fc2e32c1e67511316',1,'CppTools::Table::Table()'],['../classCppTools_1_1Table.html#acf5d8e91724301a895fe67f5a28b2450',1,'CppTools::Table::Table(const unsigned short nColumns, const int width=-1)']]]
 ];

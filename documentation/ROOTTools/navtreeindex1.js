@@ -1,5 +1,10 @@
 var NAVTREEINDEX1 =
 {
+"namespaceROOTTools.html#a105f2484fb30ec6ceb680de07dbbcd18":[1,0,1,5],
+"namespaceROOTTools.html#a3529a5c9d16239b398b0a5ed4344eeeb":[1,0,1,4],
+"namespaceROOTTools.html#ab13121d54d52beaac1fdd804b33e17de":[1,0,1,6],
+"namespaceROOTTools_1_1ThrObjHolder.html":[1,0,1,0],
+"namespaceROOTTools_1_1ThrObjHolder.html#a21787e7873addbfedee6f62a2fbca683":[1,0,1,0,17],
 "namespaceROOTTools_1_1ThrObjHolder.html#a3034e35302622418439c4ef30ff88cb7":[1,0,1,0,3],
 "namespaceROOTTools_1_1ThrObjHolder.html#a3933c306b27c9da6d6658fd7a54904f1":[1,0,1,0,2],
 "namespaceROOTTools_1_1ThrObjHolder.html#a3cc7c89d673533dfe44e30d1477ce791":[1,0,1,0,11],

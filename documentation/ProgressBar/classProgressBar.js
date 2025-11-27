@@ -5,7 +5,7 @@ var classProgressBar =
     [ "~ProgressBar", "classProgressBar.html#aa0ced60c0ade467a4602c35443e7bc78", null ],
     [ "Clear", "classProgressBar.html#aa6cf90848cc6c11bc9ab3186238b9e72", null ],
     [ "DtoStr", "classProgressBar.html#a8d3d646b4e17dfbd132ffad83bf11908", null ],
-    [ "Fill", "classProgressBar.html#aff1776205bddacc6209c88476fd84a7d", null ],
+    [ "Finish", "classProgressBar.html#ad4a26e6c06783d7ba98dba2e0545336c", null ],
     [ "GetTerminalWidth", "classProgressBar.html#a2e2d090ba69a47160719bcf8287826ea", null ],
     [ "HandleOutput", "classProgressBar.html#a30d99d1b575911fa06dd56edc7d37253", null ],
     [ "Print", "classProgressBar.html#a3047abbdabbf3879dd149426f0b801ab", null ],

@@ -1,4 +1,4 @@
 var LogoPainter_8cpp =
 [
-    [ "LOGO_PAINTER_CPP", "LogoPainter_8cpp.html#a457a272fcbd4c264f6e97da8c1f09308", null ]
+    [ "PHENIX_TOOLS_LOGO_PAINTER_CPP", "LogoPainter_8cpp.html#a958bd3bffc0ee8dbbbdfe6131bd5e13c", null ]
 ];

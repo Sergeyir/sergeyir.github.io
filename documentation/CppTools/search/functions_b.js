@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['table_0',['Table',['../classCppTools_1_1Table.html#a166174846cc4e07fc2e32c1e67511316',1,'CppTools::Table::Table()'],['../classCppTools_1_1Table.html#acf5d8e91724301a895fe67f5a28b2450',1,'CppTools::Table::Table(const unsigned short nColumns, const int width=-1)']]]
+  ['setname_0',['SetName',['../classCppTools_1_1Box.html#a3f5df09825e4d80ebfce9f14e7b9ae22',1,'CppTools::Box']]],
+  ['setwidth_1',['SetWidth',['../classCppTools_1_1Box.html#a8961a1335434ea239f5836982497029d',1,'CppTools::Box']]],
+  ['standarderror_2',['StandardError',['../MathTools_8hpp.html#a0d488e21a5e87c0ff1b2b844b801b15a',1,'CppTools']]],
+  ['standarderrorfromcarray_3',['StandardErrorFromCArray',['../MathTools_8hpp.html#afce9237852a898be92f52240abafd40b',1,'CppTools']]]
 ];

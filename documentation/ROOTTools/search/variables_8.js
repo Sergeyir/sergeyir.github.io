@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['shifty1_0',['shiftY1',['../namespaceGUIDistrCutter2D.html#a45c17c65637d9da8b26d03d61410a77a',1,'GUIDistrCutter2D']]],
-  ['shifty2_1',['shiftY2',['../namespaceGUIDistrCutter2D.html#a42250429e165e55bdb3ef4a3615922e3',1,'GUIDistrCutter2D']]],
-  ['singlebinxcut_2',['singleBinXCut',['../namespaceGUIDistrCutter2D.html#a74ebe86ccaa6365ae339b2b7bc8c8c8c',1,'GUIDistrCutter2D']]],
-  ['singlebinycut_3',['singleBinYCut',['../namespaceGUIDistrCutter2D.html#a2a961210183c4190e31d1bc24b6a320c',1,'GUIDistrCutter2D']]]
+  ['rectxmax_0',['rectXMax',['../namespaceGUIDistrCutter2D.html#a9d4925134cdc1a9b9c21e0d1d771eeda',1,'GUIDistrCutter2D']]],
+  ['rectxmin_1',['rectXMin',['../namespaceGUIDistrCutter2D.html#a0db8d5737d1980c9957a3b5b1280362a',1,'GUIDistrCutter2D']]],
+  ['rectymax_2',['rectYMax',['../namespaceGUIDistrCutter2D.html#a4aa51762f342ef0336debb1c94e6d254',1,'GUIDistrCutter2D']]],
+  ['rectymin_3',['rectYMin',['../namespaceGUIDistrCutter2D.html#aa49da5713c26256988e9a3bb60a3d5e5',1,'GUIDistrCutter2D']]]
 ];

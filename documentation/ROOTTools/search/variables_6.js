@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['objptr_0',['objPtr',['../classROOTTools_1_1ThrObj.html#ae4c24b5af5c6fbce0a93b1d77d8dd3de',1,'ROOTTools::ThrObj']]],
-  ['outputfilename_1',['outputFileName',['../namespaceGUIDistrCutter2D.html#a2fcd85d9723438cc8fe9c87d13a0929f',1,'GUIDistrCutter2D']]]
+  ['maxthresholdcutbinsx_0',['maxThresholdCutBinsX',['../namespaceGUIDistrCutter2D.html#aff7d4713a0f1a69981626c697be17ed3',1,'GUIDistrCutter2D']]],
+  ['maxthresholdcutbinsy_1',['maxThresholdCutBinsY',['../namespaceGUIDistrCutter2D.html#af1a7e4433ef3ae93726a26c1548a7883',1,'GUIDistrCutter2D']]],
+  ['minthresholdcutbinsx_2',['minThresholdCutBinsX',['../namespaceGUIDistrCutter2D.html#adf261d21db23b29c529abc859cc4ef1e',1,'GUIDistrCutter2D']]],
+  ['minthresholdcutbinsy_3',['minThresholdCutBinsY',['../namespaceGUIDistrCutter2D.html#ac8f755b43ed54c7ddcad864600ddccf8',1,'GUIDistrCutter2D']]]
 ];

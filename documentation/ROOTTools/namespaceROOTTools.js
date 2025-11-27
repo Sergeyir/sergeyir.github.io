@@ -26,9 +26,11 @@ var namespaceROOTTools =
       [ "containerTH3F", "namespaceROOTTools_1_1ThrObjHolder.html#a85199732842b63cba50bf9d29245311a", null ],
       [ "containerTH3L", "namespaceROOTTools_1_1ThrObjHolder.html#ac9a6d0fad00ce79b5613bada1671b222", null ]
     ] ],
-    [ "CheckFileForNan", "classROOTTools_1_1CheckFileForNan.html", "classROOTTools_1_1CheckFileForNan" ],
     [ "GUIFit", "classROOTTools_1_1GUIFit.html", "classROOTTools_1_1GUIFit" ],
+    [ "CheckFileForNan", "classROOTTools_1_1CheckFileForNan.html", "classROOTTools_1_1CheckFileForNan" ],
     [ "ThrObj", "classROOTTools_1_1ThrObj.html", "classROOTTools_1_1ThrObj" ],
+    [ "DrawFrame", "namespaceROOTTools.html#a3529a5c9d16239b398b0a5ed4344eeeb", null ],
+    [ "DrawFrame", "namespaceROOTTools.html#a105f2484fb30ec6ceb680de07dbbcd18", null ],
     [ "GetNumberOfParameters", "namespaceROOTTools.html#ab13121d54d52beaac1fdd804b33e17de", null ],
-    [ "PrintCanvas", "namespaceROOTTools.html#aa7810e4d5f0776e750a4b1028a667f8e", null ]
+    [ "PrintCanvas", "namespaceROOTTools.html#a0fe0f2db77f11aaf2a974792e53ba2b8", null ]
 ];
